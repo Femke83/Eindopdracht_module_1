@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <title> Travel met Fem </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="title1">TRAVEL MET FEM </div>
+            <br>
+            <div class="title2"><i><b>Maak mooie reizen & leer de taal</b></i>
+            </div>
+
+        </header>
+        <nav class="navigation">
+            <ul class="nav_box">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="page2_steden.html">STEDEN</a></li>
+                <li><a href="page3_contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <main class="main">
+            <p><i>Mocht je meer informtie willen over de reizen of heb je zelf ideëen, vul hieronder het
+                    contactformulier in.</i></p>
+            <form name="contact" method="POST" data-netlify="true" class="form">
+                <fieldset>
+                    <legend>
+                        <h2><i>Contactformulier:</i></h2>
+                    </legend>
+                    <iframe class="video1" width="426" height="240" src="https://www.youtube.com/embed/TH4h0sGkjkc" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <label>Naam: <input type="text" name="Naam" /></label><br>
+                    <br>
+                    <label>Email: <input type="email" name="email" /></label><br>
+                    <br>
+                    <label>Telefoonnumer: <input type="tel" name="Telefoonnumer" /></label><br>
+                    <br>
+                    <label>Leeftijd <input type="text" name="Telefoonnumer" /></label><br>
+                    <br>
+                    <label>Geboortedatum: <input type="date" name="Geboortedatum" /></label><br>
+                    <br>
+                    <label>Reissamenstelling:</label><br>
+                    <input type="radio" id="samen" name="Reissamenstelling" value="Gezin / Stel">
+                    <label for="Gezin / Stel">Gezin / Stel</label><br>
+                    <input type="radio" id="alleen" name="Reissamenstelling" value="Alleen">
+                    <label for="Alleen">Alleen</label><br>
+                    <input type="radio" id="Groep" name="Reissamenstelling" value="Groep">
+                    <label for="Groep">Groep (door reisorgansiatie samengesteld, max. 10 pers)</label><br>
+                    <br>
+
+                    <label for="Bestemming">Kies je favoriete bestemming:</label><br>
+                    <input type="checkbox" id="Stad1" name="Stad11" value="Madrid">
+                    <label for="Stad1"> Madrid</label><br>
+                    <input type="checkbox" id="Stad2" name="Stad2" value="San Sebastian">
+                    <label for="Stad2"> San Sebastian</label><br>
+                    <input type="checkbox" id="Stad3" name="Stad3" value="Granada">
+                    <label for="Stad3"> Granada</label><br><br>
+
+                    <label for="favcolor">Selecteer je favoriete kleur:</label>
+                    <div><i>(Voor iedere reis maken we een originele goodie)</i></div>
+                    <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+
+                    <br>
+                    <br>
+
+                    <label>Opmerkingen/vragen: <br> <textarea name="Overig" row="80" cols="50"
+                            style="margin: 0px; width: 353px; height: 77px;"></textarea></label><br><br>
+
+                    <div><i>Mocht je nog aanvulling hebben op het aanbod van deze website, plaats hieronder een bestand
+                            met ideëen voor nieuwe reizen of voeg een link toe naar een stad</i></div>
+                    <label>Voorstel reis/stad (bestand):</label><br> <input type="file" name="Bestand reis/stad" /><br>
+                    <br>
+                    <label>Voorstel reis/stad (website):</label><br> <input type="url" name="Webpagina reis/stad" /><br>
+                    <br>
+
+                    <label><button type="reset">Reset</button></label>
+                    <label><button type="submit">Verzenden</button></label><br>
+                </fieldset>
+            </form>
+
+        </main>
+
+        <footer class="footer">
+
+            <p><i> Made by Femke</i></p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
